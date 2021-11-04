@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Project Dashboard</title>
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+    <style type="text/css">
+       
+
+      .jumbotron {
+          background: none;             /* Transparent background */
+      }
+
+  </style>
+    
+</head>
+
+<body background="resources\assets\weather_pic.jpg">
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="nav nav-pills navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <h3 class="navi">Select Data View</h3>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Wind_speed.html">Wind Speed</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comparison.html">Compare Data Sets</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">View the Data!</a>
+                </li>
+
+                
+            </ul>
+           
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+          <h1 style="color:white";class="display-4">Summary: Latitude vs. X</h1>
+          <p style="color:white";class="lead">The goal of the project was to compare how latitude affects a variety of variables including temperature, cloudiness, and other variables</p>
+          <hr class="my-4">
+          <img src="resources\assets\Fig4.png" alt="Wind Speed">
+          <p style="color:white";> The data does not show a stron correlation between the latitude of a city and the max wind speed recorded in that city.  As latitude moves further away from the equator, there is a cluster of cities recorded high wind speeds, but the overall pattern appears to be quite random.</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+      </div>
+
+      <h2 style="color:white";>Visualizations</h2>
+      <div class="container">
+          <h3 class="text-center">Thumbnails</h3>
+            <div class="row">
+                <div class="col-md-3">
+                  <div class="thumbnail">
+                    <a href = "Index.html"> <img src="resources\assets\Fig1.png" alt="Max Temp" class="img-thumbnail"></a>
+                  </div>
+                 
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                      <a href = "Humidity.html"> <img src="resources\assets\Fig2.png" alt="Humidity" class="img-thumbnail"></a>
+                    </div>
+                 
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                      <a href = "Cloudiness.html"> <img src="resources\assets\Fig3.png" alt="Cloudiness" class="img-thumbnail"></a>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3">
+                  <div class="thumbnail">
+                    <a href = "Wind_speed.html"></a><img src="resources\assets\Fig4.png" alt="Wind Speed" class="img-thumbnail"></a>
+                  </div>
+                 
+              </div>
+            </div>
+      
+       
+      
+      
+         
+      
+             
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

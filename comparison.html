@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Project Dashboard</title>
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+    <style type="text/css">
+       
+
+      .jumbotron {
+          background: none;             /* Transparent background */
+      }
+
+  </style>
+    
+</head>
+
+<body background="resources\assets\weather_pic.jpg">
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="nav nav-pills navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"  aria-expanded="false">
+                        <h3 class="navi">Select Data View</h3>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Wind_speed.html">Wind Speed</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comparison.html">Compare Data Sets</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">View the Data!</a>
+                </li>
+
+                
+            </ul>
+           
+        </div>
+    </nav>
+
+    <h2 style="color:white";>Visualization Comparison</h2>
+  <div class="row">
+      
+              <div class="col-md-12">
+                <h3>Click Plot to Explore Further</h3>
+                    <div class="col-md-6">
+              
+                        <a href = "Index.html"> <img src="resources\assets\Fig1.png" alt="Max Temp" class="img-thumbnail"></a>
+                    </div>
+             
+            
+                    <div class="col-md-6">
+                        <a href = "Humidity.html"> <img src="resources\assets\Fig2.png" alt="Humidity" class="img-thumbnail"></a>
+                    </div>
+             
+            </div>
+            
+            <div class="row"></div>
+                <div class="col-md-6">
+                  <a href = "Cloudiness.html"> <img src="resources\assets\Fig3.png" alt="Cloudiness" class="img-thumbnail"></a>
+                    
+                </div>
+                
+                
+                <div class="col-md-6">
+                    <a href = "Wind_speed.html"> <img src="resources\assets\Fig4.png" alt="Wind Speed" class="img-thumbnail"></a>
+                </div>
+             
+            </div>
+        </div>
